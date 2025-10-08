@@ -22,38 +22,7 @@ on:
           #  免费区域
           - SG(free)  # azure新加披
           - US(free)  # aws美国    
-          # AWS 区域
-          - AWS-AU(Sydney)
-          - AWS-BR(São Paulo)
-          - AWS-KR(Seoul)
-          - AWS-CA(Montreal)
-          - AWS-US(VA)
-          - AWS-US(OR)
-          - AWS-EU(Frankfurt)
-          - AWS-JP(Tokyo)
-          - AWS-SG(Singapore)
-          # GCP 区域
-          - GCP-AU(Sydney)
-          - GCP-BR(São Paulo)
-          - GCP-US(IA)
-          - GCP-EU(Frankfurt)
-          - GCP-JP(Osaka)
-          - GCP-JP(Tokyo)
-          - GCP-IL(Tel Aviv)
-          - GCP-IN(Mumbai)
-          - GCP-KSA(Dammam)
-          # Azure 区域
-          - Azure-AU(Sydney)
-          - Azure-BR(São Paulo)
-          - Azure-CA(Montreal)
-          - Azure-US(VA)
-          - Azure-US(WA)
-          - Azure-EU(Netherlands)
-          - Azure-JP(Tokyo)
-          - Azure-SG(Singapore)
-          # SAP Neo 区域
-          - Neo-UAE(Dubai)
-          - Neo-KSA(Riyadh)
+          
       app_name:
         description: '应用名称(可选,留空则自动生成,被占用会部署失败)'
         required: false
